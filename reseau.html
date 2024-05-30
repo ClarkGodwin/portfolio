@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8"/>
+		<meta name="viewaort" content="width=width-device, initial-scale=1.0"/>
+		<link rel="stylesheet"/>
+<style>
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00007f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aa007f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00abf0;
+}
+
+*{
+	background: #00007f;
+	color: white;
+	padding-bottom: 30px;
+}
+h1{
+	color: #aa007f;
+	margin-left: 40%;
+}
+
+h2{
+	color:#00abf0;
+	margin-left: 40%;
+}
+a{
+	color: #00ff00;
+	text-decoration: none;
+}
+#reseau p{
+	margin-left: 20%;
+	width: 60%;
+	font-size: x-large;
+}
+
+figure img{
+	width: 60%;
+	margin-left: 20%;
+}
+
+@media only screen and (max-width:750px){
+	figure img{
+		width: 120%;
+		margin-left: 0%;
+	}
+}
+
+</style> 
+	</head>
+
+	<body>
+		<div id="reseau">
+			<h1>Reseau</h1>
+			<p>Mes connaissances en reseau s'etendent de la comprehension du modele OSI theorique en passant
+			par le modele TCP/IP que l'on utilise en pratique jusqu'a l'administration des reseaux
+			informatiques grace a des switch et a des routeurs.<br/>
+			Pour diminuer la marge d'erreur, j'utilise des logiciels de simulation comme filius,
+			concu par des etudiants allemands, et des machines virtuelles avec virtualox</p><br/>
+
+			<figure class="filius">
+				<img src="img10.png"/>
+				<figcaption>
+					<p>Sur cette photo, on peut voire une simulation d'un reseau
+					local avec un serveur DHCP pour pour accorder une addresse
+					IP a chaque machine en fonction du reseau dans lequel il
+					se trouve.</p>
+				</figcaption>
+				<img src="img11.png"/>
+				<figcaption>
+					<p>C'est une simulation d'un reseau etendu ayant acces a un routeur lui-meme
+					connecte a un serveur internet</p>.
+				</figcaption>
+			</figure>
+
+			<figure class="virtualbox">
+				<img src="img12.png"/>
+				<figcaption>
+					<p>Sur cette photo, on voit l'ouverture de 3 machines virtuelles, dont le
+					systeme d'exploitation est Kali Linux, et se trouvant dans un meme reseau.</p>
+				</figcaption>
+				<img src="img13.png"/>
+				<figcaption>
+					<p>C'est l'interface de configuration des machines virtuelles, cela va du stockage,
+					de la RAM, du nombre de processeurs, du systeme d'exploitation,...</p>
+				</figcaption>
+			</figure>
+		</div>
+	</body>
+</html>

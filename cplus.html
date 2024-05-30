@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8"/>
+		<meta name="viewaort" content="width=width-device, initial-scale=1.0"/>
+		<link rel="stylesheet"/> 
+<style>
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00007f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aa007f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00abf0;
+}
+
+*{
+	background: #00007f;
+	color: white;
+	padding-bottom: 30px;
+}
+h1{
+	color: #aa007f;
+	margin-left: 40%;
+}
+
+h2{
+	color:#00abf0;
+	margin-left: 40%;
+}
+a{
+	color: #00ff00;
+	text-decoration: none;
+}
+#cplus{
+	position: absolute;
+	width: 98%;
+}
+
+#cplus p{
+	font-size: x-large;
+	margin-left: 20%;
+	width: 60%;
+}
+
+#cplusp{
+	width: 60%;
+	position: absolute;
+	margin-right: 40%;
+}
+
+
+.projetcplus{
+	margin-top: 13%;
+}
+
+#cplus1 h1{
+	margin-left: 40%;
+}
+
+#cplus1 span img{
+	margin-left: 20%;
+	margin-bottom: 2%;
+}
+
+#cplus1 span a{
+	font-size: x-large;
+	margin-left: 20%;
+}
+
+#cplus2 span img{
+	margin-left: 20%;
+	margin-bottom: 2%;
+}
+
+#cplus2 span a{
+	font-size: x-large;
+	margin-left: 20%;
+}
+
+#cplus3 span img{
+	margin-left: 20%;
+	margin-bottom: 2%;
+}
+
+#cplus3 span a{
+	font-size: x-large;
+	margin-left: 20%;
+}
+
+@media only screen and (max-width: 1240px){
+	*{
+		padding-bottom
+	}
+
+	#cplus span img{
+		width: 70%;
+	}
+	.projetcplus{
+		margin-top:380px
+	}
+	h1{
+		margin-left: 20%;
+	}
+	.cplus3{
+		margin-bottom: 40px;
+	}
+}
+
+</style>
+	</head>
+
+	<body>
+		<h1>Mes Projets C++</h1>
+		<div id="cplus">
+			<p id="cplusp">Il s'agit du premier langage de programmation que j'ai appris et que je maitrise le mieux.
+			<br/>Je developpe essentiellement en console avec ce langage mais je peux egalement concevoir
+			des interfaces graphiques avec Qt <br/><br/>
+			Voici la liste de mes projets les plus interressants: </p>
+			<div class="projetcplus">
+				<div id="cplus1">
+					<h2>1. Matrice:</h2>
+					<p>Il s'agit d'un code effectuant tous les calculs concernant les matrices;
+					ils vont des operations basiques comme l'addition, la soustraction, la multiplications et la division
+					aux calculs complexes comme le determinant, l'inverse ou encore le rang.
+					Dans l'insertion, on peut egalement y mettre des fractions sans problemes;
+					de plus, ce code fonctionne pour les matices de tout type mxn
+					(qu'il s'agisse de 10x10, 4x50, 3x5,...).</p>
+					<span class="image1-c++">
+						<img src="img1.png" id="img1"/><br/>
+						<img src="img2.png" id="img2"/><br/>
+						<a href="https://github.com/ClarkGodwin/Matrice-de-type-mxn">Code source sur mon compte github</a>
+					</span>
+
+				</div>
+
+				<div id="cplus2">
+					<h2>2. Systeme:</h2>
+					<p> Il s'agit d'un code permettant de resoudre des systemes d'ordre n.
+					Les calculs se basent sur le code de la matrice pour trouver la matrice solution.</p>
+					<span class="image2-c++">
+						<img src="img3.png"/><br/>
+						<img src="img4.png"/><br/>
+						<a href="https://github.com/ClarkGodwin/System-d-equations">Code source sur mon compte github</a>
+					</span>
+
+				</div>
+
+				<div id="cplus3">
+					<h2>3. Temps:</h2>
+					<p> Il s'agit d'un code tres basique dont la fonction parle d'elle-meme.
+					On peut s'en servir pour entrer l'heure et effctuer des operations d'addition
+					et de soustraction avec conversion.</p>
+					<span class="image3-c">
+						<img src="img5.png"/><br/>
+						<a href="https://github.com/ClarkGodwin/Time-">Code source sur mon compte github</a>
+					</span>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

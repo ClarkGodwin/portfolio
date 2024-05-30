@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8"/>
+		<meta name="viewaort" content="width=width-device, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css"/> 
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+
+	<body>
+		<header class="header">
+			<a id="home" class="logo">Clark G.</a>
+
+			<span id="i1">
+				<i class='bx bx-menu-alt-right' id="i4">
+					<nav class="navbar">
+						<a href="#">Home</a>
+						<a href="#comp">Competénces</a>
+						<a href="#cont">Contacts</a>
+					</nav>	
+				</i>
+			</span>
+		</header>
+
+		<section class="home">
+			<div class="home-content">
+				<h1>Introduction</h1>
+				<h3>Clark Godwin Niyonzima</h3>
+				<p>
+				Je me nomme Clark Godwin Niyonzima, j'ai debuté la programmation à 16 ans en 2021 avec le langage C++, j'ai ensuite enchainé avec l'Orientée Objet(POO), les interfaces graphiques avec Qt, le langage C, les bases de donées avec MySQL, des bases en reseaux, et le développement fullstack.<br>
+			Je tiens la quasi totalité toutes mes connaissances en programmation de cours suivi sur openclassroom
+			et de leurs anciens PDF de cours.<br/>
+			Je dispose de 3 de leurs certificats: Programmation en C++, Programmation Orientée Objet(POO) en C++ et
+			en Administration de bases de données avec MySQL
+				</p>
+
+				<div class="btn-box">
+					<a href="#">Service ?</a>
+					<a href="#">Contactez</a>
+				</div>
+			</div>
+
+			<div class="home-sci">
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="mailto:clarkniyonzima@gmail.com"><i class='bx bxl-gmail' ></i></a>
+				<a href="https://github.com/ClarkGodwin"><i class='bx bxl-github' ></i></a>
+			</div>
+
+			<span class="home-img">
+				<img src="photo.jpg" alt=""/>
+			</span>
+		</section>
+
+		<section id="comp">
+			<h1>Competénces</h1>
+			<div>
+				<figure class="fig1" style="margin-bottom: 30px">
+					<img src="Cplus.jpeg" id="cs"/>
+					<figcaption>
+						<a href="cplus.html">Developpement en C++<br/>Programmation Orientee Objet(POO) en C++<br/>
+							Programmation GUI(Graphic User Interface) avec Qt</a>
+					</figcaption>
+				</figure>
+				<figure class="fig1" style="margin-bottom: 30px">
+					<img src="C.jpeg" id="cs"/>
+					<figcaption>
+						<a href="cs.html">Developpement en C(essentiellement en console)</a>
+					</figcaption>
+				</figure>
+				<figure class="fig2">
+					<img src="mysql.jpeg" id="my">
+					<figcaption>
+						<a href="db.html">Administration de bases de donnees avec MySQL</a>
+					</figcaption>
+				</figure>
+				<figure class="fig2">
+					<img src="reseau.jpeg" id="re"style="width: 100%">
+					<figcaption>
+						<a href="reseau.html">Conception d'une architecture reseau<br/>Maitrise des reseaux TCP/IP</a>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<section id="cont">
+			<div class="container">
+				<div class="title">
+					<h1>Une question ? Un conseil ?</h1>
+					<h3>Contactez-moi</h3>
+				</div>
+
+				<form action="#" method="post">
+					<input type="text" name="name" placeholder="Entrer Votre Nom" required="">
+					<input type="email" name="email" placeholder="Entrer Votre Email" required="">
+					<input type="text" name="subject" placeholder="Entrer Votre Sujet" required="">
+					<input type="text" name="number" placeholder="Entrer Votre Numero" required="">
+					<textarea name="message" placeholder="Entrer Votre message"></textarea>
+					<button type="submit">Envoyer</button>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
